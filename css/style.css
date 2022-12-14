@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "'Montserrat'", sans-serif;
+  font-size: 18px;
+}
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+p {
+  margin: 0;
+  line-height: 1.37em;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.container h2 {
+  margin-right: 65px;
+}
+
+section {
+  padding-top: 120px;
+}
+
+.btn {
+  background: #ff6861;
+  border-radius: 100px;
+  color: #ffffff;
+  padding: 22px 68px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  width: 218px;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: #742b27;
+  color: #dcc022d0;
+}
+
+.header {
+  padding-top: 60px;
+  margin-bottom: 110px;
+}
+
+.introtext {
+  font-size: 18px;
+  margin: 30px 0px;
+}
+
+.offer-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 82px;
+}
+
+.offer {
+  width: 465px;
+}
+
+.logo {
+  margin-right: auto;
+  display: block;
+}
+
+.digit-item {
+  display: flex;
+  align-items: center;
+}
+
+.digit {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  width: 77px;
+  height: 77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 34px;
+  transition: all 0.5s ease;
+}
+
+.digit-title {
+  font-size: 30px;
+  margin-bottom: 11px;
+}
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  width: 720px;
+  margin: 70px auto 0 auto;
+}
+.logo-digits {
+  margin-right: 34px;
+}
+.practice-wrap {
+  background: linear-gradient(102deg, #fff6df 17.38%, #ffdfde 81.25%);
+  border-radius: 60px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 76px 122px;
+}
+
+.practice-block {
+  margin-right: 100px;
+  width: 432px;
+}
+
+.practice-title {
+  text-align: left;
+}
+
+.practice-text {
+  margin: 24px 0;
+  width: 371px;
+}
+
+.ball {
+  margin-right: 101px;
+}
+
+.footer {
+  padding: 120px 0;
+  text-align: center;
+  font-size: 15px;
+}
